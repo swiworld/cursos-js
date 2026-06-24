@@ -83,7 +83,7 @@ function renderCards(cursos, curso) {
 </tr>
 <tr>
 <td nowrap="nowrap">
-<p>${row['Curs'] || '—'} ${row['Estiu'] || '—'}</p>
+<p>${row['Curs'] || ''} ${row['Estiu'] || ''}</p>
 <p style="text-transform:capitalize;">${row['Modalitat'] || '—'}</p>
 </td>
 <td nowrap="nowrap">
